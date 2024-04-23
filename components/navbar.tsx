@@ -81,10 +81,10 @@ const Navbar = ()  => {
               className="w-8 h-8 text-slate-300 cursor-pointer"
             >
               <X />
-              {/* <DropDownMenu
+              <DropDownMenu
                 onClose={closeDropDown}
 
-              /> */}
+              />
             </div>
           ) : (
             <AlignJustify
