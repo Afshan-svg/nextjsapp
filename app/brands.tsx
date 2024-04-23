@@ -35,8 +35,7 @@ const Brands = () => {
         <div>
             <div className=" p-4   mx-auto relative z-10  w-full pt-20 md:pt-32">
                 <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
-             bg-gradient-to-b from-black
-              to bg-black bg-opacity-50">
+             bg-gray-100">
                     <span className="text-yellow-custom">The best brands</span>
                     <br />
                     Choose Us

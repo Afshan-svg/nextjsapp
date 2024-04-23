@@ -8,8 +8,7 @@ const GraphicDesign = () => {
         
         <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
                 <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
-             bg-gradient-to-b from-black
-              to bg-black bg-opacity-50">
+             bg-gray-100">
                     <span className="text-yellow-custom">Streamline your </span>
                     <br />
                     business with our services

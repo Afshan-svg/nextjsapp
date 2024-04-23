@@ -6,8 +6,7 @@ const Services = () => {
     return ( <div className="max-w-5xl mx-auto py-20">
    
        <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
-             bg-gradient-to-b from-black
-              to bg-black bg-opacity-50">
+             bg-gray-100">
                     <span className="text-yellow-custom">Our Services</span>
                     <br />
                     

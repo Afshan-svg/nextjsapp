@@ -17,7 +17,7 @@ const FAQS = () => {
             <div className="text-3xl md:text-4xl font-bold text-black">
               Have questions ?
             </div>
-            <div className="  font-semibold text-2xl md:text-4xl text-gradient bg-gradient-to-r from-yellow to-black bg-clip-text text-transparent">
+            <div className="  font-semibold text-2xl md:text-4xl text-gradient bg-gray-100 bg-clip-text text-transparent">
               Get answers.
             </div>
             <Accordion type="single" collapsible>
