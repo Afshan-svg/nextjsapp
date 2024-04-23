@@ -17,41 +17,44 @@ const FAQS = () => {
             <div className="text-3xl md:text-2xl font-bold text-black">
               Have questions ?
             </div>
-            <div className="  font-semibold text-2xl md:text-2xl text-gradient bg-gray-100 bg-clip-text text-transparent">
+            <div className="  font-semibold text-2xl md:text-4xl text-gradient bg-gray-100 bg-clip-text text-yellow">
               Get answers.
             </div>
             <Accordion type="single" collapsible>
-    <AccordionItem value="item-1">
-      <AccordionTrigger>How can CGI Marketing benefit my business?</AccordionTrigger>
-      <AccordionContent>
+  <AccordionItem value="item-1">
+    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
+      How can CGI Marketing benefit my business?
+    </AccordionTrigger>
+    <AccordionContent>
       CGI Marketing has transformative power. As a CGI Marketing Agency, Insights Media pushes boundaries with this innovative approach. Our methods blend cutting-edge technology with creative storytelling, delivering a visually captivating experience that engages audiences and elevates brand presence.
-      </AccordionContent>
-    </AccordionItem>
-    <AccordionItem value="item-2">
-      <AccordionTrigger>How do you incorporate creativity into your social media campaigns?</AccordionTrigger>
-      <AccordionContent>
-Hmmmmmmmmmm
-      </AccordionContent>
-    </AccordionItem>
-    <AccordionItem value="item-3">
-      <AccordionTrigger>
-    Why Insights Media ?
-      </AccordionTrigger>
-      <AccordionContent>
-     hmmmmmmmmm
-        
-      </AccordionContent>
-    </AccordionItem>
-  
-    <AccordionItem value="item-4">
-      <AccordionTrigger>
-    Support ?
-        </AccordionTrigger>
-      <AccordionContent>
-        We offer Monday-Friday support for all our clients.
-      </AccordionContent>
-    </AccordionItem>
-  </Accordion>
+    </AccordionContent>
+  </AccordionItem>
+  <AccordionItem value="item-2">
+    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
+      How do you incorporate creativity into your social media campaigns?
+    </AccordionTrigger>
+    <AccordionContent>
+      Hmmmmmmmmmm
+    </AccordionContent>
+  </AccordionItem>
+  <AccordionItem value="item-3">
+    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
+      Why Insights Media?
+    </AccordionTrigger>
+    <AccordionContent>
+      hmmmmmmmmm
+    </AccordionContent>
+  </AccordionItem>
+  <AccordionItem value="item-4">
+    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
+      Support?
+    </AccordionTrigger>
+    <AccordionContent>
+      We offer Monday-Friday support for all our clients.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+
   
   
           </div>
