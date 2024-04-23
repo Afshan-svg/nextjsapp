@@ -11,22 +11,22 @@ const font = Lora({
 
 const logos = [
     {
-        image: "/logo/logoipsum-248.svg",
+        image: "/public/images/nat-min.png",
     },
     {
-        image: "/logo/logoipsum-245.svg",
+        image: "/public/images/nat-min.png",
     },
     {
-        image: "/logo/logoipsum-225.svg",
+        image: "/public/images/nat-min.png",
     },
     {
-        image: "/logo/logoipsum-248.svg",
+        image: "/public/images/nat-min.png",
     },
     {
-        image: "/logo/logoipsum-249.svg",
+        image: "/public/images/nat-min.png",
     },
     {
-        image: "/logo/stripelogo.png",
+        image: "/public/images/nat-min.png",
     },
 ];
 
