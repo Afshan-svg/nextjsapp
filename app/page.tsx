@@ -72,7 +72,7 @@ export default function Home() {
       />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
-             bg-black">
+             bg-white">
           <span className="text-yellow-custom">Strategic Insights</span>
           <br />
           to fuel your digital growth
