@@ -13,6 +13,8 @@ import ChooseUs from "./choose-us";
 import Brands from "./brands";
 import Services from "./services";
 import FAQS from "./faq";
+import FooterWeb from "./web-footer";
+// import { InfiniteMovingCards } from "./testimonial";
 
 
 export default function Home() {
@@ -111,10 +113,11 @@ export default function Home() {
           </div>
           
           <FAQS/>
+          <FooterWeb/>
+          {/* <InfiniteMovingCards/> */}
+          
         </div>
       </div>
     
-
   );
-
 }

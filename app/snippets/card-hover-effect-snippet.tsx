@@ -28,14 +28,12 @@ export const projects = [
         title: "CGI Marketing",
         description:
           "CGI and VFX Work",
-      
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiMegaphone className="w-8 h-8 text-blue-600" /></div>,
         title: "Social Media",
         description:
-          "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",
-      
+          "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",    
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiAppStoreLogo className="w-8 h-8 text-blue-600" /></div>,
