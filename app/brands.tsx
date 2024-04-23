@@ -11,7 +11,7 @@ const font = Lora({
 
 const logos = [
     {
-        image: "/public/images/nat-min.png",
+        image: "//logo/logo3.svg",
     },
     {
         image: "/public/images/nat-min.png",

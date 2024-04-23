@@ -7,7 +7,7 @@ import { useMediaQuery } from "react-responsive";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const SliderOne = () => {
+const SliderTwo = () => {
   const isMediumScreen = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
   const isSmallScreen = useMediaQuery({ maxWidth: 767 });
 
@@ -16,7 +16,7 @@ const SliderOne = () => {
     infinite: true,
     slidesToShow: 3,
     autoplay: true,
-    speed: 2000,
+    speed: 4000,
     autoplaySpeed: 1000,
     className: "w-full mx-auto cursor-pointer center-mode",
   };
@@ -32,8 +32,8 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/sample.png"
-              alt="Any Image"
+              src="/images/business.jpeg"
+              alt="Testimonial Image"
               width={500}
               height={500}
               className="
@@ -46,8 +46,8 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/sample1.png"
-              alt="Any Image"
+              src="/images/business.jpeg"
+              alt="Testimonial Image"
               width={500}
               height={500}
               className="
@@ -60,8 +60,8 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/sample2.png"
-              alt="Any Image"
+              src="/images/business.jpeg"
+              alt="Testimonial Image"
               width={500}
               height={500}
               className="
@@ -74,8 +74,8 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/sample3.png"
-              alt="Any Image"
+              src="/images/business.jpeg"
+              alt="Testimonial Image"
               width={500}
               height={500}
               className="
@@ -88,8 +88,8 @@ const SliderOne = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/sample4.png"
-              alt="Any Image"
+              src="/images/business.jpeg"
+              alt="Testimonial Image"
               width={500}
               height={500}
               className="
@@ -103,4 +103,4 @@ const SliderOne = () => {
     );
 }
  
-export default SliderOne;
+export default SliderTwo;

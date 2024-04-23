@@ -2,6 +2,7 @@
 
 import Navbar from "@/components/navbar";
 import SliderOne from "@/components/ui/slider";
+import SliderTwo from "@/components/ui/slider1";
 import { Spotlight } from "@/components/ui/spotlight";
 import Image from "next/image";
 import Link from "next/link";
@@ -110,7 +111,7 @@ export default function Home() {
 
           </div>
           </div>
-          
+          <SliderTwo/>
           <FAQS/>
           <FooterWeb/>
           {/* <InfiniteMovingCards/> */}
