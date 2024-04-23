@@ -131,7 +131,7 @@ export default function ContactForm() {
       />
       <div className="md:flex items-start justify-center md:py-20 px-6">
         <div className="">
-          <div className="text-5xl font-medium  w-full md:w-2/3  pb-5 md:text-7xl bg-clip-text text-transparent bg-gray-100 bg-opacity-50">
+          <div className="text-5xl font-medium  w-full md:w-2/3  pb-5 md:text-7xl bg-clip-text text-transparent bg-gray-100">
             Contact our marketing team
           </div>
           <div
@@ -218,7 +218,7 @@ export default function ContactForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
                       Email *
                     </FormLabel>
                     <FormControl>
@@ -233,7 +233,7 @@ export default function ContactForm() {
                 name="company_name"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
                       Company name?
                     </FormLabel>
                     <FormControl>
@@ -248,7 +248,7 @@ export default function ContactForm() {
                 name="services"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
                     Services you are interested in
                     </FormLabel>
                     <Select
@@ -281,7 +281,7 @@ export default function ContactForm() {
                 name="help"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
                       How can we help ?
                     </FormLabel>
                     <Select
@@ -318,7 +318,7 @@ export default function ContactForm() {
                 name="info"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-grady-100 bg-opacity-50">
+                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
                       Anything else ?
                     </FormLabel>
                     <FormControl>
