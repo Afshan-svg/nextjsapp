@@ -13,11 +13,11 @@ const FAQS = () => {
         rounded-3xl
         
         ">
-          <div className=" p-10 md:p-4 md:px-20">
-            <div className="text-3xl md:text-4xl font-bold text-black">
+          <div className=" p-10 md:p-2 md:px-10">
+            <div className="text-3xl md:text-2xl font-bold text-black">
               Have questions ?
             </div>
-            <div className="  font-semibold text-2xl md:text-4xl text-gradient bg-gray-100 bg-clip-text text-transparent">
+            <div className="  font-semibold text-2xl md:text-2xl text-gradient bg-gray-100 bg-clip-text text-transparent">
               Get answers.
             </div>
             <Accordion type="single" collapsible>
