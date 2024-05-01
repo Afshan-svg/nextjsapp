@@ -42,15 +42,16 @@ const FAQS = () => {
       How does Insights Media stay ahead in the ever-evolving world of digital marketing trends?
     </AccordionTrigger>
     <AccordionContent>
-    Staying at the forefront of digital trends is our commitment. As the Top Digital Marketing Agency in India, Insights Media's team is continually evolving, adopting new technologies and strategies to ensure your brand reaps the benefits of the latest innovations in the digital marketing landscape.
-    </AccordionContent>
+    Staying at the forefront of digital trends is our commitment. As the Top Digital Marketing Agency in India, Insights Media&apos;s team is continually evolving, adopting new technologies and strategies to ensure your brand reaps the benefits of the latest innovations in the digital marketing landscape.
+</AccordionContent>
+
   </AccordionItem>
   <AccordionItem value="item-4">
     <AccordionTrigger className="text-lg md:text-xl text-left md:text-right">
     How do you incorporate creativity into your social media campaigns?
     </AccordionTrigger>
     <AccordionContent>
-    Creativity is at the heart of our social media campaigns. Whether it's visually stunning content or innovative engagement tactics, our team at Insights Media ensures your brand stands out in the crowded social media landscape, sparking interest and conversations.
+    Creativity is at the heart of our social media campaigns. Whether its visually stunning content or innovative engagement tactics, our team at Insights Media ensures your brand stands out in the crowded social media landscape, sparking interest and conversations.
     </AccordionContent>
   </AccordionItem>
 </Accordion>

@@ -52,28 +52,27 @@ const Brands = () => {
                     <br />
                     Choose Us
                 </div>
-                <p className="mt-4 text-lg font-normal  text-black max-w-lg text-center mx-auto px-4">
+                <p className="mt-4 text-lg font-normal text-black max-w-lg text-center mx-auto px-4">
                     60+ Success Stories. Yours Could Be Next.
                     <br /><br />
-
-                    As the top digital marketing agency in India, we've ignited remarkable growth for businesses of all sizes, from startups to established corporations.
+                    As the top digital marketing agency in India, we&apos;ve ignited remarkable growth for businesses of all sizes, from startups to established corporations.
                 </p>
 
-                
+
                 <div className="grid grid-cols-3 gap-4 md:grid-cols-5 md:gap-8 items-center justify-center mx-auto cursor-pointer">
-  {logos.map((logo, i) => (
-    <div key={i} className="p-4 md:p-20">
-      <Image
-        priority
-        src={logo.image}
-        width={800}
-        height={800}
-        alt="logo"
-        className="w-full h-auto max-w-full rounded-lg"
-      />
-    </div>
-  ))}
-</div>
+                    {logos.map((logo, i) => (
+                        <div key={i} className="p-4 md:p-20">
+                            <Image
+                                priority
+                                src={logo.image}
+                                width={500}
+                                height={500}
+                                alt="logo"
+                                className="w-full h-auto max-w-full rounded-lg"
+                            />
+                        </div>
+                    ))}
+                </div>
 
 
 
