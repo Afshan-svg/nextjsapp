@@ -22,35 +22,35 @@ const FAQS = () => {
             </div>
             <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
-      How can CGI Marketing benefit my business?
+    <AccordionTrigger className="text-lg md:text-xl text-left md:text-right">
+    How does influencer marketing fit into your overall strategy, and how do you choose the right influencers for a campaign?
     </AccordionTrigger>
     <AccordionContent>
-      CGI Marketing has transformative power. As a CGI Marketing Agency, Insights Media pushes boundaries with this innovative approach. Our methods blend cutting-edge technology with creative storytelling, delivering a visually captivating experience that engages audiences and elevates brand presence.
+    Influencer marketing is a vital part of our strategy. We meticulously select influencers based on alignment with your brand values and target audience. This ensures authenticity and maximizes the impact of influencer partnerships.
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-2">
-    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
-      How do you incorporate creativity into your social media campaigns?
+    <AccordionTrigger className="text-lg md:text-xl text-left md:text-right">
+    How can CGI Marketing benefit my business?
     </AccordionTrigger>
     <AccordionContent>
-      Hmmmmmmmmmm
+    CGI Marketing has transformative power. As a CGI Marketing Agency, Insights Media pushes boundaries with this innovative approach. Our methods blend cutting-edge technology with creative storytelling, delivering a visually captivating experience that engages audiences and elevates brand presence.
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-3">
-    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
-      Why Insights Media?
+    <AccordionTrigger className="text-lg md:text-xl text-left md:text-right">
+      How does Insights Media stay ahead in the ever-evolving world of digital marketing trends?
     </AccordionTrigger>
     <AccordionContent>
-      hmmmmmmmmm
+    Staying at the forefront of digital trends is our commitment. As the Top Digital Marketing Agency in India, Insights Media's team is continually evolving, adopting new technologies and strategies to ensure your brand reaps the benefits of the latest innovations in the digital marketing landscape.
     </AccordionContent>
   </AccordionItem>
   <AccordionItem value="item-4">
-    <AccordionTrigger className="text-base md:text-sm text-left md:text-right">
-      Support?
+    <AccordionTrigger className="text-lg md:text-xl text-left md:text-right">
+    How do you incorporate creativity into your social media campaigns?
     </AccordionTrigger>
     <AccordionContent>
-      We offer Monday-Friday support for all our clients.
+    Creativity is at the heart of our social media campaigns. Whether it's visually stunning content or innovative engagement tactics, our team at Insights Media ensures your brand stands out in the crowded social media landscape, sparking interest and conversations.
     </AccordionContent>
   </AccordionItem>
 </Accordion>

@@ -5,21 +5,21 @@ import Image from "next/image";
 const stores = [
   {
     image: "/images/image2.png",
-    quote: "Insights Media Text",
-    name: "Insights Media Text",
+    quote: "Data-Driven:",
+    name: "No more guessing just data-fueled growth.",
   },
   {
     image: "/images/shop-2.jpeg",
     quote:
-      "Insights Media Text",
-    name: "Insights Media Text",
+      "Unmatched Expertise",
+    name: "We know digital, inside and out.",
   },
 
   {
     image: "/images/s-2.webp",
     quote:
-      "Insights Media Text",
-    name: "Insights Media Text",
+      "Results you can measure",
+    name: "Transparency matters. See your success in numbers.",
   },
 ];
 
@@ -35,7 +35,7 @@ const ChooseUs = () => {
       <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
              bg-gradient-to-b from-black
               to bg-black bg-opacity-50">
-                    <span className="text-yellow-custom">Why to Choose Us</span>
+                    <span className="text-yellow-custom">Why Us</span>
                     
                 </div>
 

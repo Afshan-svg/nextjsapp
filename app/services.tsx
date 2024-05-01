@@ -12,8 +12,7 @@ const Services = () => {
                     
                 </div>
                 <p className="mt-4 text-lg font-normal  text-black max-w-lg text-center mx-auto px-4">
-                    Dedicated to pushing the boundaries of innovation,
-                    our passion lies in crafting digital experiences that not only meet but exceed expectations.
+                We exceed expectations and create sparking connections. Crafting experiences that resonate with your audience, building loyalty and driving results.
                 </p>
 
         <CardHoverEffectDemo />

@@ -15,6 +15,7 @@ import Brands from "./brands";
 import Services from "./services";
 import FAQS from "./faq";
 import FooterWeb from "./web-footer";
+import { color } from "framer-motion";
 // import { InfiniteMovingCards } from "./testimonial";
 
 
@@ -79,13 +80,19 @@ export default function Home() {
           to fuel your digital growth
         </div>
         <p className="mt-4 text-lg font-normal  text-black max-w-lg text-center mx-auto px-4">
-          Custom tailored solutions for your business. We are a team of creatives who are excited to help you grow your business.
+        Your roadmap to digital domination.
+
+We are <span className="text-blue">Insights Media</span> , recognized as the top digital marketing agency in India. 
+
+<span>Specializing</span>  in delivering impactful results tailored to your business.
+
+
         </p>
         <Link
           href={"/contact"}
           className="cursor-pointer flex items-center justify-center border border-yellow-custom rounded-full w-48 p-2 mx-auto my-6 text-black"
         >
-          BOOK A CALL NOW
+          GET STARTED NOW
         </Link>
         <div className="w-full pt-20">
           <SliderOne/>

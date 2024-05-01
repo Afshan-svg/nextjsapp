@@ -11,42 +11,42 @@ export function CardHoverEffectDemo() {
 export const projects = [
     {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiMonitor className="w-8 h-8 text-blue-600" /></div>,
-        title: "Social Media Management",
+        title: "CGI Marketing",
         description:
-          "We build businesses",
+          "",
       
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiStorefront className="w-8 h-8 text-blue-600" /></div>,
-        title: "Content Creation",
+        title: "Content Graphics",
         description:
-          "Content and graphic designing",
+          "",
        
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiLock className="w-8 h-8 text-blue-600" /></div>,
-        title: "CGI Marketing",
+        title: "Video Editing",
         description:
-          "CGI and VFX Work",
+          "",
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiMegaphone className="w-8 h-8 text-blue-600" /></div>,
-        title: "Social Media",
+        title: "Digital Marketing",
         description:
-          "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",    
+          "",    
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiAppStoreLogo className="w-8 h-8 text-blue-600" /></div>,
         title: "Web Development",
         description:
-          "We build custom mobile webapps for iOS and Android. Our apps are designed to be user-friendly and performant.",
+          "",
       
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiHeadsetFill className="w-8 h-8 text-blue-600" /></div>,
-        title: "Support",
+        title: "Brand Management",
         description:
-          "We offer support for all our clients. We are here to help you with any issues or questions you may have.",
+          "",
      
       },
 ];
