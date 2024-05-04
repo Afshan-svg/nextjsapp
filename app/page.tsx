@@ -75,12 +75,12 @@ export default function Home() {
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
              bg-gray-100">
-          <span className="text-yellow-custom">Strategic Insights</span>
+          <span className="text-yellow-custom">Your roadmap </span>
           <br />
-          to fuel your digital growth
+          to digital domination.
         </div>
         <p className="mt-4 text-lg font-normal  text-black max-w-lg text-center mx-auto px-4">
-        Your roadmap to digital domination.
+        
 
 We are <span className="text-blue">Insights Media</span> , recognized as the top digital marketing agency in India. 
 
@@ -92,7 +92,7 @@ We are <span className="text-blue">Insights Media</span> , recognized as the top
           href={"/contact"}
           className="cursor-pointer flex items-center justify-center border border-yellow-custom rounded-full w-48 p-2 mx-auto my-6 text-black"
         >
-          GET STARTED NOW
+          GET STARTED
         </Link>
         <div className="w-full pt-20">
           <SliderOne/>

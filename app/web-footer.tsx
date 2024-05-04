@@ -12,19 +12,20 @@ const FooterWeb = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/logo/logo.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
+                    className="w-20 h-auto dark:hidden" // Adjust width to 24 and height to auto
+                    width={24} // Adding the required width property
+                    height={30} // Assuming height stays the same
                   />
-                  <Image
-                    src="/images/logo/logo.svg"
+
+                  {/* <Image
+                    src="/logo/ogo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
-                  />
+                  /> */}
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Address:-
@@ -222,16 +223,16 @@ const FooterWeb = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                
+
               </a>{" "}
-              and{" "}
+              {" "}
               <a
                 href="https://nextjstemplates.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-               Insights Media
+                Insights Media
               </a>
             </p>
           </div>

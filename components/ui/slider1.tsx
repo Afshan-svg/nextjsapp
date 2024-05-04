@@ -16,7 +16,7 @@ const SliderTwo = () => {
     infinite: true,
     slidesToShow: 3,
     autoplay: true,
-    speed: 4000,
+    speed: 3000,
     autoplaySpeed: 1000,
     className: "w-full mx-auto cursor-pointer center-mode",
   };
@@ -27,12 +27,23 @@ const SliderTwo = () => {
   }
     return ( 
     <div>
+      <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
+                <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
+             bg-gray-100">
+                    <span className="text-yellow-custom">Our Clients</span>
+                    <br />
+                    Feedback on working with us
+                </div>
+                <p className="mt-4 text-lg font-normal  text-black max-w-lg text-center mx-auto px-4">
+                    See what our clients say about us
+                </p>
+            </div>
  <Slider {...settings}>
         <>
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/business.jpeg"
+              src="/images/testimonial.png"
               alt="Testimonial Image"
               width={500}
               height={500}
@@ -46,7 +57,7 @@ const SliderTwo = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/business.jpeg"
+              src="/images/testimonial3.png"
               alt="Testimonial Image"
               width={500}
               height={500}
@@ -60,7 +71,7 @@ const SliderTwo = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/business.jpeg"
+              src="/images/testimonial2.png"
               alt="Testimonial Image"
               width={500}
               height={500}
@@ -74,7 +85,7 @@ const SliderTwo = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/business.jpeg"
+              src="/images/testimonial3.png"
               alt="Testimonial Image"
               width={500}
               height={500}
@@ -88,7 +99,7 @@ const SliderTwo = () => {
           <div className="rounded-md px-2 md:p-10">
             <Image
               priority
-              src="/images/business.jpeg"
+              src="/images/testimonial.png"
               alt="Testimonial Image"
               width={500}
               height={500}

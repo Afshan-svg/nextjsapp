@@ -4,19 +4,19 @@ import Image from "next/image";
 
 const stores = [
   {
-    image: "/images/image2.png",
+    image: "/images/image3.png",
     quote: "Data-Driven:",
     name: "No more guessing just data-fueled growth.",
   },
   {
-    image: "/images/shop-2.jpeg",
+    image: "/images/image.png",
     quote:
       "Unmatched Expertise",
     name: "We know digital, inside and out.",
   },
 
   {
-    image: "/images/s-2.webp",
+    image: "/images/image4.png",
     quote:
       "Results you can measure",
     name: "Transparency matters. See your success in numbers.",
