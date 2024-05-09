@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 import { Lora } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -43,7 +43,17 @@ const logos = [
 ];
 
 const Brands = () => {
+    const getRandomSize = (min:any, max:any) => {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    };
+    
+    // Function to generate a random margin
+    const getRandomMargin = () => {
+        const margins = ['mb-2', 'mb-4', 'mb-6', 'mb-8', 'mb-10']; 
+        return margins[Math.floor(Math.random() * margins.length)];
+    };
     return (
+        
         <div>
             <div className=" p-4 mx-auto relative z-10  w-full pt-20 md:pt-32">
                 <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text 
@@ -59,20 +69,21 @@ const Brands = () => {
                 </p>
 
 
-                <div className="grid grid-cols-3 gap-4 md:grid-cols-5 md:gap-8 items-center justify-center mx-auto cursor-pointer">
-                    {logos.map((logo, i) => (
-                        <div key={i} className="p-4 md:p-20">
-                            <Image
-                                priority
-                                src={logo.image}
-                                width={500}
-                                height={500}
-                                alt="logo"
-                                className="w-full h-auto max-w-full rounded-lg"
-                            />
-                        </div>
-                    ))}
-                </div>
+                <div className="grid grid-cols-7 gap-1 md:grid-cols-7 md:gap-1 items-center justify-center mx-auto cursor-pointer">
+    {logos.map((logo, i) => (
+        <div key={i} className={`p-1 md:p-8 ${getRandomMargin()}`}>
+            <Image
+                priority
+                src={logo.image}
+                width={getRandomSize(200, 600)}
+                height={getRandomSize(300, 700)} 
+                alt="logo"
+                className="w-full h-auto max-w-full rounded-lg"
+            />
+        </div>
+    ))}
+</div>
+
 
 
 

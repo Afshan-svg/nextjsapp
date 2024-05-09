@@ -72,6 +72,9 @@ const Navbar = ()  => {
           <Link href="/work" className="hover:text-transparent ">
             OUR WORK
           </Link>
+          <Link href="/cgi" className="hover:text-transparent ">
+            CGI
+          </Link>
         </div>
         <div className="flex md:hidden">
           {isDropDownVisible ? (
