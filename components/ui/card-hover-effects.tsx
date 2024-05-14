@@ -11,7 +11,7 @@ export const HoverEffect = ({
     icon: React.ReactNode;
     title: string;
     description: string;
-
+    link: string; // Add link property to each item
   }[];
   className?: string;
 }) => {
@@ -26,7 +26,7 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <div
-       key={item?.title}
+          key={item?.title}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -34,7 +34,7 @@ export const HoverEffect = ({
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-yellow dark:bg-white/[0.8] block  rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-yellow dark:bg-slate-800/[0.8] block  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -48,7 +48,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
+          <Card buttonLink={item.link}> {/* Pass link from item */}
             <div className="flex items-center">{item.icon}</div>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
@@ -59,26 +59,39 @@ export const HoverEffect = ({
   );
 };
 
+
 export const Card = ({
   className,
   children,
+  buttonLink,
 }: {
   className?: string;
   children: React.ReactNode;
+  buttonLink: string;
 }) => {
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-black relative z-20",
+        "rounded-2xl h-full w-full p-4 overflow-hidden bg-gray-100 border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
         className
       )}
     >
-      <div className="relative z-50">
+     <div className="relative z-50">
         <div className="p-4">{children}</div>
+        {buttonLink && (
+          <div className="absolute bottom-2 left-2">
+            <Link legacyBehavior href={buttonLink} passHref>
+              <a className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md transition duration-300 text-xs">
+                View Details
+              </a>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
 };
+
 export const CardTitle = ({
   className,
   children,
@@ -87,7 +100,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-yellow font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("text-black font-bold tracking-wide mt-4", className)}>
       {children}
     </h4>
   );
@@ -102,7 +115,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-8 text-white tracking-wide leading-relaxed text-sm",
+        "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
         className
       )}
     >

@@ -121,7 +121,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className=" w-full   md:items-center md:justify-center bg-black/[0.96] bg-grid-white/[0.02] relative overflow-hidden ">
+    <div className=" w-full   md:items-center md:justify-center bg-white/[0.96] bg-grid-white/[0.02] relative overflow-hidden ">
       <Navbar
         // scrollToWebsiteDesign={() => {}}
         // scrollToGraphicDesign={() => {}}
@@ -187,7 +187,7 @@ export default function ContactForm() {
                   name="first_name"
                   render={({ field }) => (
                     <FormItem className="items-center justify-center  w-full">
-                      <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100 bg-opacity-50">
+                      <FormLabel className="text-sm bg-clip-text text-transparent bg-white bg-opacity-50 text-black">
                         First name *
                       </FormLabel>
                       <FormControl>
@@ -202,7 +202,7 @@ export default function ContactForm() {
                   name="last_name"
                   render={({ field }) => (
                     <FormItem className="items-center justify-center  w-full">
-                      <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100 bg-opacity-50">
+                      <FormLabel className="text-sm bg-clip-text text-transparent text-black bg-gray-100 bg-opacity-50">
                         Last name *
                       </FormLabel>
                       <FormControl>
@@ -218,7 +218,7 @@ export default function ContactForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
+                    <FormLabel className="text-sm bg-clip-text text-transparent text-black bg-gray-100">
                       Email *
                     </FormLabel>
                     <FormControl>
@@ -232,9 +232,9 @@ export default function ContactForm() {
                 control={form.control}
                 name="company_name"
                 render={({ field }) => (
-                  <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
-                      Company name?
+                  <FormItem className="items-center text-black justify-center  w-full">
+                    <FormLabel className="text-sm text-black bg-clip-text text-transparent bg-white">
+                      Company name
                     </FormLabel>
                     <FormControl>
                       <Input {...field} />
@@ -248,7 +248,7 @@ export default function ContactForm() {
                 name="services"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
+                    <FormLabel className="text-sm text-black bg-clip-text text-transparent bg-gray-100">
                     Services you are interested in
                     </FormLabel>
                     <Select
@@ -340,7 +340,7 @@ export default function ContactForm() {
                 "
                   />
                 </div>
-                <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gray-100">
+                <div className="text-xs font-light text-black  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gray-100">
                   I agree to Bird&apos; sending marketing communications related
                   to bird
                 </div>

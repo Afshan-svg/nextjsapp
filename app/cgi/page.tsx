@@ -10,8 +10,6 @@ const videos = [
   "/images/boatcgi.mp4",
   "/images/ganga.mp4",
   "/images/manforce.mp4",
-//   "https://videos.pexels.com/video-files/4434242/4434242-uhd_2160_3840_24fps.mp4",
-  
 ];
 
 
@@ -30,14 +28,15 @@ const MyMasonryComponent = () => {
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {/* Include Navbar if it's required */}
         
-        {videos.map((video, index) => (
-          <div key={index} style={{ width: 'calc(33.33% - 20px)', margin: '10px' }}>
-            <video controls width="100%" height="auto" className="object-cover w-full h-full">
-              <source src={video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        ))}
+        {videos.slice(0, 6).map((video, index) => (
+  <div key={index} style={{ width: 'calc(33.33% - 20px)', margin: '10px' }}>
+    <video controls width="100%" height="auto" className="object-cover w-full h-full">
+      <source src={video} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+))}
+
     </div>
     </div>
   );
