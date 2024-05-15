@@ -89,10 +89,10 @@ We are <span className="text-blue">Insights Media</span> , recognized as the top
 
         </p>
         <Link
-          href={"/contact"}
+          href={"https://wa.link/iagy10"}
           className="cursor-pointer flex items-center justify-center border border-yellow-custom rounded-full w-48 p-2 mx-auto my-6 text-black"
         >
-          GET STARTED
+          CHAT NOW
         </Link>
         <div className="w-full pt-20">
           <SliderOne/>

@@ -68,11 +68,11 @@ type FormValues = {
   company_name: string;
   help: "Evaluate my company" | "Schedule a meeting" | "Get a CGI Edit" | "Other";
   services:
-    | "Web Develoment"
-    | "Social Media Marketing"
-    | "UI/UX Design"
-    | "Branding"
-    | "CGI Marketing";
+  | "Web Develoment"
+  | "Social Media Marketing"
+  | "UI/UX Design"
+  | "Branding"
+  | "CGI Marketing";
   info: string;
   terms: boolean;
 };
@@ -123,11 +123,11 @@ export default function ContactForm() {
   return (
     <div className=" w-full   md:items-center md:justify-center bg-white/[0.96] bg-grid-white/[0.02] relative overflow-hidden ">
       <Navbar
-        // scrollToWebsiteDesign={() => {}}
-        // scrollToGraphicDesign={() => {}}
-        // scrollToShopifyStores={() => {}}
-        // scrollToBrands={() => {}}
-        // scrollToServices={() => {}}
+      // scrollToWebsiteDesign={() => {}}
+      // scrollToGraphicDesign={() => {}}
+      // scrollToShopifyStores={() => {}}
+      // scrollToBrands={() => {}}
+      // scrollToServices={() => {}}
       />
       <div className="md:flex items-start justify-center md:py-20 px-6">
         <div className="">
@@ -138,7 +138,7 @@ export default function ContactForm() {
             className="
               
               py-4
-              text-gray-300
+              text-black
                     "
           >
             Let&apos;s talk about how Insights Media can help your team work better.
@@ -232,8 +232,8 @@ export default function ContactForm() {
                 control={form.control}
                 name="company_name"
                 render={({ field }) => (
-                  <FormItem className="items-center text-black justify-center  w-full">
-                    <FormLabel className="text-sm text-black bg-clip-text text-transparent bg-white">
+                  <FormItem className="items-center justify-center  w-full">
+                    <FormLabel className="text-sm bg-clip-text text-transparent text-black bg-gray-100">
                       Company name
                     </FormLabel>
                     <FormControl>
@@ -248,8 +248,8 @@ export default function ContactForm() {
                 name="services"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
-                    <FormLabel className="text-sm text-black bg-clip-text text-transparent bg-gray-100">
-                    Services you are interested in
+                    <FormLabel className="text-sm bg-clip-text text-transparent text-black  bg-gray-100">
+                      Services you are interested in
                     </FormLabel>
                     <Select
                       onValueChange={field.onChange}
@@ -263,7 +263,7 @@ export default function ContactForm() {
                       <SelectContent>
                         <div className="flex gap-4">
                           <SelectItem value="Web Development">
-                          Web Development
+                            Web Development
                           </SelectItem>
                         </div>
                         <SelectItem value="Social Media Marketing">Social Media Marketing</SelectItem>
@@ -281,7 +281,7 @@ export default function ContactForm() {
                 name="help"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center  w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
+                    <FormLabel className="text-sm bg-clip-text text-transparent text-black bg-gray-100">
                       How can we help ?
                     </FormLabel>
                     <Select
@@ -290,8 +290,8 @@ export default function ContactForm() {
                     >
                       <FormControl>
                         <SelectTrigger
-                        
-                        
+
+
                         >
                           <SelectValue placeholder="Select an option" />
                         </SelectTrigger>
@@ -318,7 +318,7 @@ export default function ContactForm() {
                 name="info"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
-                    <FormLabel className="text-sm bg-clip-text text-transparent bg-gray-100">
+                    <FormLabel className="text-sm bg-clip-text text-transparent text-black bg-gray-100">
                       Anything else ?
                     </FormLabel>
                     <FormControl>
@@ -336,13 +336,13 @@ export default function ContactForm() {
                 border-2
                 text-sm
                 font-light
-                bg-clip-text text-transparent bg-gray-100
+                bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400
                 "
                   />
                 </div>
-                <div className="text-xs font-light text-black  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gray-100">
-                  I agree to Bird&apos; sending marketing communications related
-                  to bird
+                <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-black bg-gray-100">
+                  I agree to Insights Media&apos; sending marketing communications related
+                  to me
                 </div>
               </div>
 
